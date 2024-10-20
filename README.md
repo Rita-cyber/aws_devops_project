@@ -1,5 +1,22 @@
 # mydemorepo
 
+A Devops approach to build and Deploy an application on Ubuntu server
+
+Integrate phase/code phase
+1. Create a repository (Github)
+2. Clone the repo
+git clone https://gitrepourl
+3. Copied all the code from below repo to the one you just cloned.
+https://github.com/pravinmenghani1/myrepo2
+A. cd gitrepo folder
+4. git add . #will add everything to local repo
+5. git commit -m “added all files” #This will commit everything to local repo.
+6. git push
+
+
+Build stage
+7. Create the code build project, specify source repo, specify build spec.yaml file, specify env for code build like OS version, etc. Specify artefact location and artifact type (zip/tar/etc). Specify s3 bucket location to be same as code build location.
+
 
 <img width="688" alt="image" src="https://github.com/user-attachments/assets/fb22bdd5-2ea4-4e96-aa46-c5dbf85ac385">
 
@@ -58,6 +75,7 @@
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/f544bdf9-0760-4e0f-adde-cab98d8901df">
 
 
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/d98f0fc4-6e78-4e73-afd5-fb1b54aa96c6">
 
 
 
