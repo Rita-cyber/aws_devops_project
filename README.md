@@ -1,13 +1,13 @@
-# mydemorepo
+# A Devops approach to build and Deploy an application on Ubuntu server
 
-A Devops approach to build and Deploy an application on Ubuntu server
+This is a step by step process of how to deploy an application using aws devops services.
 
 Integrate phase/code phase
 1. Create a repository (Github)
 2. Clone the repo
-git clone https://gitrepourl
+git clone https://github.com/Rita-cyber/aws_devops_project/
 3. Copied all the code from below repo to the one you just cloned.
-https://github.com/pravinmenghani1/myrepo2
+
 A. cd gitrepo folder
 4. git add . #will add everything to local repo
 5. git commit -m “added all files” #This will commit everything to local repo.
